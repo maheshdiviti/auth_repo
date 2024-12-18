@@ -1,0 +1,25 @@
+body{
+    background : yellow;
+    color : white;
+    text-align : center;
+}
+h1{
+
+    background : green;
+    color : red;
+    text-align : center;
+}
+ul{
+    font siz : 20px;
+    text-align : left;
+    text-color : red;
+}
+img{
+    height : 250px;
+    width : 300px;
+    margin : 25px;
+    border-color : red;
+    border-width : 10px;
+    border-style : groove;
+
+}

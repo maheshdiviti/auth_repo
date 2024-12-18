@@ -1,0 +1,35 @@
+
+{% load static %}
+<html lang="en">
+<link rel = "stylesheet" href="{% static 'css/demo.css'%}">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+
+</head>
+<body>
+
+<h1>{{head_msg}}</h1>
+<ul>
+    <li>{{sub_msg1}}</li>
+    <li>{{sub_msg2}}</li>
+    <li>{{sub_msg3}}</li>
+</ul>
+{% if type == 'movies'%}
+    <img src="{%static 'images/img1.jpg'%}">
+    <img src="{%static 'images/img2.jpg'%}">
+    <img src="{%static 'images/img3.jpg'%}">
+{% elif type == 'sports'%}
+    <img src="{%static 'images/img4.jpg'%}">
+    <img src="{%static 'images/img5.jpg'%}">
+    <img src="{%static 'images/img6.jpg'%}">
+{% elif type == 'politics'%}
+    <img src="{%static 'images/img7.jpg'%}">
+    <img src="{%static 'images/img8.jpg'%}">
+    <img src="{%static 'images/img9.jpg'%}">
+{% endif%}
+
+</body>
+</html>
