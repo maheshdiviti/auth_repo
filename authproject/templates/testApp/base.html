@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+      input[type=text]:focus {
+  width: 40%;}
+      input[type=submit]:focus {
+  width: 20%;}
+
+    </style>>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">CA Course</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/found">Foundation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/inter">Intermediate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/final">Final</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/signup">Sign up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/accounts/login">login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/accounts/logout">logout</a>
+        </li>
+      </ul></div>
+    </div>
+
+</nav>
+{%block body_block%}
+{%endblock%}
+
+</body>
+</html>
